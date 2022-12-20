@@ -25,4 +25,9 @@
 
 # Проект
 
-[Демо](https://chedore.github.io/russian-travel/index.html) на GitHub Pages
+[Демо](https://chedore.github.io/russian-travel/index.html) на GitHub Pagesезно потренироваться. Не забудьте оптимизировать картинки, чтобы ваш сайт загружался быстрее.
+
+Удачи!
+
+Проект
+Демо на GitHub Pages
