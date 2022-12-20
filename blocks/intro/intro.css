@@ -1,0 +1,38 @@
+/*768px --> 1023px*/
+.intro {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 2*24px);
+    z-index: auto;
+    justify-content: space-between;
+    margin:  88px auto 0 24px;
+    padding: 0;
+  }
+
+/*1024px --> 1279px*/
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .intro { 
+        max-width: 690px;
+        margin:  92px auto 0 48px;
+    }
+}
+
+/*1280px --> ~px*/
+@media screen and (min-width: 1280px)  {
+    .intro { 
+        max-width: 690px;
+        margin:  92px auto 0 148px;
+    }
+}
+
+
+/*320px --> 767px*/
+@media screen and (max-width: 767px) {
+    .intro {
+        width: calc(100% - 2*16px);
+        margin:  64px auto 0 16px;
+    }
+}
+
+
+
