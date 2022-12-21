@@ -1,0 +1,25 @@
+/*768px --> 1023px*/
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 2*16px);
+  z-index: auto;
+  margin:  88px 24px 0 24px;
+  padding: 0;
+}
+  
+/*1024px --> ~px*/
+@media screen and (min-width: 1024px) {
+  .footer { 
+    width: calc(100% - 2*48px);
+    margin:  92px auto 0 48px;
+  }
+}
+  
+/*320px --> 767px*/
+@media screen and (max-width: 767px) {
+  .footer {
+    width: calc(100% - 134px);
+    margin:  64px auto 0 16px;
+  }
+}
