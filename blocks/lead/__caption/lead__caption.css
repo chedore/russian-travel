@@ -1,19 +1,19 @@
 /*768px --> ~px*/
 .lead__caption {
-    font-style: normal;
-    font-size: 10px;
-    line-height: 1.4;
-    font-weight: 400;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    margin: 8px auto 0 24px;
-    padding: 0;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 1.4;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin: 8px auto 0 24px;
+  padding: 0;
 }
 
 
 /*320px --> 767px*/
 @media screen and (max-width: 767px) {
-    .lead__subtitle {
-        margin: 8px auto 0 16px;
-    }
+  .lead__subtitle {
+    margin: 8px auto 0 16px;
+  }
 }

@@ -1,19 +1,19 @@
 .header__item {
-    margin: 18px 0 6px 18px;
+  margin: 18px 0 6px 18px;
 }
 
 .header__item:first-child {
-    margin: 18px 0 6px 0;
+  margin: 18px 0 6px 0;
 }
 
 @media screen and (max-width: 767px) {
-    .header__item {
-        margin: 14px 0 8px 18px;
-    }
+  .header__item {
+    margin: 14px 0 8px 18px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .header__item:first-child {
-        margin: 14px 0 8px 0;
-    }
+  .header__item:first-child {
+    margin: 14px 0 8px 0;
+  }
 }

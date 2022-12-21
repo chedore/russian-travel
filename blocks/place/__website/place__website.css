@@ -1,0 +1,14 @@
+/*768px --> ~px*/
+.place__website {
+  width: 100%;
+  align-self: end;
+  margin: 0;
+}
+
+/*320px --> 767px*/
+@media screen and (max-width: 767px) {
+  .place__website {
+    width: calc(100% - 2*16px);
+    margin:  0 16px 0 16px;
+  }
+}

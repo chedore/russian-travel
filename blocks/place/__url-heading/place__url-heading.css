@@ -1,0 +1,18 @@
+/*768px --> ~px*/
+.place__url-heading {
+  font-style: normal;
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  margin: 0 0 12px 0;
+}
+
+/*320px --> 767px*/
+@media screen and (max-width: 767px) {
+  .place__website {
+    line-height: 1.3;
+  }
+}

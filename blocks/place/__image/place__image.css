@@ -1,0 +1,12 @@
+.place__image {
+  max-width: 100%;
+  grid: 2 / 3;
+}
+
+/*320px --> 767px*/
+@media screen and (max-width: 767px) {
+  .place__image {
+    grid: 3 / 4;
+    margin: 16px 0 32px 0;
+  }
+}

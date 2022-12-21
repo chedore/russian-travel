@@ -1,0 +1,28 @@
+/*768px --> ~1023px*/
+.place__paragraph {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 163%;
+  font-weight: 400;
+  margin: 0 0 ;
+  padding: 0 0 25px 0;
+}
+
+.place__paragraph:last-of-type {
+  padding: 0;
+}
+
+/*320px --> 767px*/
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    margin: 0 16px;
+  }
+}
+
+/*1023px --> ~px*/
+@media screen and (min-width: 1023px)  {
+  .place__paragraph { 
+    font-size: 18px;
+    padding: 0 0 26px 0;
+  }
+}

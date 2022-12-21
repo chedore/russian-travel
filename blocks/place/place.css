@@ -1,0 +1,37 @@
+/*768px --> 1023px*/
+.place {
+  display: grid;
+  gap: 48px 28px;
+  grid-template-columns: 340px 1fr;
+  padding-bottom: 73px;
+  }
+  
+  .place:last-of-type {
+  padding-bottom: 0;
+  }
+  
+  /*320px --> 767px*/
+@media screen and (max-width: 767px) {
+  .place {
+  gap: 16px;
+  grid-template-columns: 100%;
+  padding-bottom: 50px;
+  }
+}
+  
+  /*1024px --> 1279px*/
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place { 
+  grid-template-columns: 440px 1fr;
+  gap: 48px 32px;
+  }
+}
+  
+/*1280px --> ~px*/
+@media screen and (min-width: 1280px)  {
+  .place { 
+  grid-template-columns: 460px 1fr;
+  gap: 48px 40px;
+  }
+}
+  
