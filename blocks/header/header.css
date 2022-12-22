@@ -5,7 +5,8 @@
   z-index: auto;
   justify-content: space-between;
   margin:  0 auto;
-  }
+  max-width: 1280px; 
+}
 
 /*1024px --> ~px*/
 @media screen and (min-width: 1024px) {

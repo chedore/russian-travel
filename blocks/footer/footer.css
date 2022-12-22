@@ -21,5 +21,6 @@
   .footer {
     width: calc(100% - 134px);
     margin:  64px auto 0 16px;
+    flex-direction: column;
   }
 }

@@ -1,5 +1,7 @@
 /*768px --> ~1023px*/
 .cover__title {
+  display: flex;
+  position: relative;
   max-width: 560px;
   font-style: normal;
   font-size: 72px;
@@ -8,8 +10,6 @@
   text-align: center;
   margin: 115px 0 0;
   padding-bottom: 32px;
-  color: white;
-  text-decoration-line: none;
   z-index: 2;
 }
   

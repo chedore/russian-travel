@@ -1,4 +1,4 @@
-/*768px --> ~px*/
+/*768px --> 1024px*/
 .lead__caption {
   font-style: normal;
   font-size: 10px;
@@ -13,7 +13,15 @@
 
 /*320px --> 767px*/
 @media screen and (max-width: 767px) {
-  .lead__subtitle {
+  .lead__caption {
     margin: 8px auto 0 16px;
+  }
+}
+
+
+/*1024px --> ~px*/
+@media screen and (min-width: 1024px) {
+  .lead__caption {
+    margin: 8px auto 0 0;
   }
 }
