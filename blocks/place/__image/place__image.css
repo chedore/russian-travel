@@ -7,6 +7,6 @@
 @media screen and (max-width: 767px) {
   .place__image {
     grid: 3 / 4;
-    margin: 16px 0 32px 0;
+    margin: 16px 0 0 0;
   }
 }
