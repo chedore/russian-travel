@@ -1,9 +1,8 @@
 .cover__subtitle {
-  display: flex;
-  position: relative;
+  font-style: normal;
+  text-align: center;
   font-size: 18px;
   line-height: 1.22;
-  text-align: center;
   font-weight: 400;
   max-width: 360px;
   margin: 0 auto;
